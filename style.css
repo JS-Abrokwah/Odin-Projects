@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  background-color: white;
+}
+header {
+  background-color: #1f2937;
+  color: azure;
+  width: 100%;
+}
+.header {
+  background-color: #1f2937;
+  color: azure;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2em,solid,#e7eaed;
+}
+.logo img {
+  position: relative;
+  left: 5vw;
+  border-radius: 7em;
+}
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 1em;
+}
+.nav a {
+  margin-right: 8vw;
+  color: azure;
+  text-decoration: none;
+  font-weight: 600;
+}
+.nav a:hover {
+  color: rgb(38, 240, 240);
+  text-decoration: underline;
+}
+.bioInfo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 7%;
+  align-items: center;
+  justify-content: space-between;
+}
+.bioInfo div{
+  width: 50%;
+  padding: 0rem 3rem 3rem 3rem;
+}
+.myphoto img{
+  margin-left: 20%;
+  border-radius: 2rem;
+  width: 30rem;
+}
+.bio h1{
+  padding: 5%;
+  font-weight: 900;
+  font-size: 3em;
+}
+.bio p{
+  padding: 5%;
+  font-size:2em;
+}
+.bio button{
+  margin-left: 30%;
+  font-size: 1.5em;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: rgb(249, 249, 252);
+  background-color:#3882f6;
+  cursor: pointer;
+  border-color: white; 
+  border-radius: 0.4em;
+  transition: 0.3s;
+}
+.bio button:hover{
+
+  font-size: 1.5em;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: #3882f6;
+  background-color:white;
+  cursor: pointer;
+  border-color:transparent; 
+  transition: 0.3s;
+}
+.stack{
+  background-color: white;
+  padding: 6rem;
+  color: #2d3b4e;
+}
+.techs{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.stack h1{
+  padding-bottom: 1em;
+  font-weight: 800;
+  font-size: 3em;
+  padding-left: 35%;
+}
+.techs div{
+  width: 12em;
+  height: 12em;
+  font-weight: 600;
+  border-style: solid;
+  border-radius: 1.3em;
+  border-color:#3882f6;
+  border-width: 0.3em;
+  padding: 1em;
+}
+.techs div img{
+  padding:1em;
+  width: 6em;
+  height: 6em;
+}
+.inspire{
+  background-color: #e5e7eb;
+  width: 100%;
+  height: 12em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 2rem 0rem 1rem 0rem;
+}
+.inspire h1{
+  font-weight: 700;
+  font-size: 2rem;
+  padding-bottom:1rem ;
+}
+.inspire p{
+  font-weight: 400;
+  font-size: 1.5rem;
+  font-style: italic;
+}
+.action{
+  background-color:white;
+  width: 100%;
+  height: 30em;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 2rem 0rem 1rem 0rem;
+}
+.action .act{
+  background-color: #3882f6;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  margin: 3rem 5rem 3rem 5rem;
+  width: 80%;
+  height: 22rem;
+  padding: 2rem 10rem 2rem 5rem ;
+  border-radius: 0.7rem;
+}
+.act .description h1{
+  font-size: 3rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+.act .description p{
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+.act .description li{
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: oblique;
+  padding-bottom: 0.5rem;
+  padding-left: 3rem;
+  list-style: none;
+}
+.act button{
+
+  font-size: 1.5em;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: rgb(249, 249, 252);
+  background-color:transparent;
+  cursor: pointer;
+  border-color: white; 
+  border-width: 0.2rem;
+  border-radius: 0.4em;
+  transition: 0.3s;
+}
+.act button:hover{
+  font-size: 1.5em;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: #3882f6;
+  background-color:white;
+  cursor: pointer;
+  border-color:transparent; 
+  transition: 0.3s;
+}
+footer{
+  background-color: #2d3b4e;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 12rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+footer h1{
+  padding-bottom: 0.7rem;
+  text-decoration-line: underline;
+}
+/* footer .follow h1{
+  padding-bottom: 0.7rem;
+  text-decoration-line: underline;
+} */
+footer i{
+  padding-bottom: 0.6rem;
+  padding-right: 0.6rem;
+  color: white;
+}
+footer a{
+  padding-bottom: 0.6rem;
+  padding-right: 0.6rem;
+  color: white;
+  text-decoration-line: none ;
+}
